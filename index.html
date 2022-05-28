@@ -77,14 +77,14 @@
     </header>
 
     <section>
-        <div id="bea-carousel" class="carousel slide border-bottom" data-ride="carousel">
+        <div id="intro-carousel" class="carousel slide border-bottom" data-ride="carousel">
             <ol class="carousel-indicators">
-                <li data-target="#bea-carousel" data-slide-to="0" class="active"></li>
-                <li data-target="#bea-carousel" data-slide-to="1"></li>
-                <li data-target="#bea-carousel" data-slide-to="2"></li>
+                <li data-target="#intro-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#intro-carousel" data-slide-to="1"></li>
+                <li data-target="#intro-carousel" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
-                <div class="carousel-item active" style="background-image: url('slide1.jpeg')">
+                <div class="carousel-item intro-slide-1 active" style="background-image: url('slide1.jpeg')">
                     <!-- <img src="img/slide03.jpg" class="d-block w-100" alt="..."> -->
 
                     <div class="container">
@@ -118,12 +118,12 @@
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-target="#bea-carousel" data-slide="prev">
+            <button class="carousel-control-prev" type="button" data-target="#intro-carousel" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"><i
                         class="fas fa-chevron-left fa-2x"></i></span>
                 <span class="sr-only">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-target="#bea-carousel" data-slide="next">
+            <button class="carousel-control-next" type="button" data-target="#intro-carousel" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"><i
                         class="fas fa-chevron-right fa-2x"></i></span>
                 <span class="sr-only">Next</span>
@@ -132,7 +132,7 @@
 
         <div id="intro" class="container py-5">
             <div class="row">
-                <div class="col-md-10 mx-auto text-center" data-aos="zoom-in">
+                <div class="col-md-10 mx-auto text-center">
                     <h2>Benvenuti nel mondo di ScaraBea</h2>
                     <div class="bea-hr-sm"></div>
                     <p class="lead">Scarabea è il tappo che vive dentro ognuno di noi, alla ricerca di una felicità
@@ -144,17 +144,16 @@
     </section>
 
     <section id="collezione" class="container py-5">
-        <div class="row pt-5" data-aos="fade-up">
+        <div class="row" data-aos="fade-up">
             <div class="col-12 text-center">
                 <h2>Collezione</h2>
                 <div class="bea-hr-sm"></div>
             </div>
 
             <div class="col-md-4 mb-4 mb-md-0">
-                <div class="bea-box">
-                    <img src="best9animals.jpg" alt="Avatar" class="img-thumbnail shadow">
+                <div class="bea-box embed-responsive embed-responsive-1by1">
+                    <img src="best9animals.jpg" alt="Avatar" class="embed-responsive-item img-thumbnail shadow">
                     <h3 class="bea-box-txt">Lorem</h3>
-
                     <div class="bea-box-overlay bea-box-fadeIn-left">
                         <div class="bea-box-details">
                             <h3>Collezione <br />Lorems</h3>
@@ -200,7 +199,8 @@
         <div class="row align-items-center">
             <div class="col-md-7" data-aos="zoom-in">
                 <h2 class="text-center text-md-left">Hey, tu! Ciao, io sono Ciapinko e creo bellezza.</h2>
-                <p class="lead text-justify"><mark>Ciapinko</mark> nasce da un’esigenza artistica e personale, facendo
+                <p class="lead text-justify mb-5 mb-md-0"><mark>Ciapinko</mark> nasce da un’esigenza artistica e
+                    personale, facendo
                     della mia
                     passione un lavoro con una
                     missione precisa. Raccogliere da terra i tappini di sugheri e scavare all'interno per scoprire quali
@@ -220,7 +220,8 @@
         <div class="row align-items-center">
             <div class="col-md-7 order-md-2" data-aos="zoom-in">
                 <h2 class="text-center text-md-left">Ecosostenibilità</h2>
-                <p class="lead text-justify">I tried to make my project more ecological and original, avoiding the use
+                <p class="lead text-justify mb-5 mb-md-0">I tried to make my project more ecological and original,
+                    avoiding the use
                     of polymer
                     clay but the recycling of objects destined for another use. Small miniature sculptures made with
                     simple wine cork stoppers.
@@ -243,27 +244,35 @@
                     fuga.
                 </p>
             </div>
-            <div class="col-12 col-md-3 timeline">
+            <div class="col-12 col-md-3">
                 <h3>Scrivimi</h3>
-                <img src="contatform.png" class="img-thumbnail shadow img-how">
+                <div class="embed-responsive embed-responsive-1by1">
+                    <img src="contatform.png" alt="" class="embed-responsive-item img-thumbnail rounded-circle">
+                </div>
                 <p>Scrivimi qui sotto</p>
             </div>
 
-            <div class="col-12 col-md-3 timeline">
+            <div class="col-12 col-md-3">
                 <h3>invia foto</h3>
-                <img src="caneq0.jpg" class="img-thumbnail shadow img-how">
+                <div class="embed-responsive embed-responsive-1by1">
+                    <img src="caneq0.jpg" alt="" class="embed-responsive-item img-thumbnail rounded-circle">
+                </div>
                 <p>Inviami 2 o più foto del tuo pelosetto</p>
             </div>
 
-            <div class="col-12 col-md-3 timeline">
+            <div class="col-12 col-md-3">
                 <h3>progress</h3>
-                <img src="caneq1.jpg" class="img-thumbnail shadow img-how">
+                <div class="embed-responsive embed-responsive-1by1">
+                    <img src="caneq1.jpg" alt="" class="embed-responsive-item img-thumbnail rounded-circle">
+                </div>
                 <p>Te lo faccio se me lo paghi. Grazie!</p>
             </div>
 
-            <div class="col-12 col-md-3 timeline">
+            <div class="col-12 col-md-3">
                 <h3>finish</h3>
-                <img src="bapiciricca.jpg" class="img-thumbnail shadow img-how">
+                <div class="embed-responsive embed-responsive-1by1">
+                    <img src="bapiciricca.jpg" alt="" class="embed-responsive-item img-thumbnail rounded-circle">
+                </div>
                 <p>tanto ricchina io</p>
             </div>
         </div>
@@ -287,7 +296,7 @@
                 <div class="col-12 col-md-5 py-3">
                     <div class="row">
                         <div class="col-12">
-                            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                            <div id="review-carousel" class="carousel slide" data-ride="carousel">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
                                         <img src="recensione1.jpg" class="d-block w-100" alt="...">
@@ -302,13 +311,13 @@
                                         <img src="recensione11.jpg" class="d-block w-100" alt="...">
                                     </div>
                                 </div>
-                                <button class="carousel-control-prev" type="button"
-                                    data-target="#carouselExampleControls" data-slide="prev">
+                                <button class="carousel-control-prev" type="button" data-target="#review-carousel"
+                                    data-slide="prev">
                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                     <span class="sr-only">Previous</span>
                                 </button>
-                                <button class="carousel-control-next" type="button"
-                                    data-target="#carouselExampleControls" data-slide="next">
+                                <button class="carousel-control-next" type="button" data-target="#review-carousel"
+                                    data-slide="next">
                                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                     <span class="sr-only">Next</span>
                                 </button>
@@ -374,11 +383,11 @@
 
     <footer class="">
         <div class="container">
-            <div class="row small border-top border-bottom py-5">
+            <div class="row border-top border-bottom py-5">
 
                 <div class="col-6 col-md">
                     <h5 class="h6">Index</h5>
-                    <ul class="list-unstyled text-small">
+                    <ul class="list-unstyled">
                         <li><a class="text-muted" href="#">home</a></li>
                         <li><a class="text-muted" href="#">tips</a></li>
                         <li><a class="text-muted" href="#">work</a></li>
@@ -389,7 +398,7 @@
 
                 <div class="col-6 col-md">
                     <h5 class="h6">Lorem</h5>
-                    <ul class="list-unstyled text-small">
+                    <ul class="list-unstyled">
                         <li><a class="text-muted" href="#">Another</a></li>
                         <li><a class="text-muted" href="#">Another</a></li>
                         <li><a class="text-muted" href="#">Another</a></li>
@@ -400,7 +409,7 @@
 
                 <div class="col-6 col-md">
                     <h5 class="h6">About</h5>
-                    <ul class="list-unstyled text-small">
+                    <ul class="list-unstyled">
                         <li><a class="text-muted" href="#">Privacy</a></li>
                         <li><a class="text-muted" href="#">Terms</a></li>
                         <li><a class="text-muted" href="#">Another</a></li>
