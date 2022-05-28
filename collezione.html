@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- <title>beatnic store</title> -->
+    <!-- <title>ⒷⒺⒶⓉⓃⒾⒸⓢⓣⓞⓡⓔ</title> -->
+    <title>NEW Collezione - by Scarabea</title>
+
+    <link rel="stylesheet" href="main.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body id="top" data-spy="scroll" data-target=".navbar" data-offset="300">
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top border-bottom bea-border-bottom">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="logo-bg-transp.png" class="bea-logo">
+                    <h1 class="text-hide d-inline">BEATNIC store</h1>
+                </a>
+                <button class="navbar-toggler px-0 border-0" type="button" data-toggle="collapse"
+                    data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <i class="fas fa-bars text-main"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarsExample05">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#collezione">Collezione</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#chi-sono">Chi Sono</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#ecosostenibilita">Ecosostenibilità</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#come-ordinare">Come ordinare</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger pr-0" href="#contattami">Contattami</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link disabled pr-0">Disabled</a>
+                        </li> -->
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="works" class="container py-5">
+        <div class="row py-5 text-center">
+            <div class="col-12">
+                <h2>Collezione</h2>
+                <div class="bea-hr-sm"></div>
+                <p>Everything you can see is handcrafted with care and love. Choose your fighter!</p>
+            </div>
+            <div class="col-12 py-3" data-aos="zoom-in">
+                <div id="filtersButtons">
+                    <button class="btn btn-link bea-active" onclick="filterSelection('all')">All</button>
+                    <button class="btn btn-link" onclick="filterSelection('cats')">Cats</button>
+                    <button class="btn btn-link" onclick="filterSelection('dogs')">Dogs</button>
+                    <button class="btn btn-link" onclick="filterSelection('faces')">Faces</button>
+                    <button class="btn btn-link" onclick="filterSelection('characters')">Characters</button>
+                    <button class="btn btn-link" onclick="filterSelection('others')">Others</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+
+            <div class="col-6 col-md-3 mb-3 my-sm-3 bea-item dogs">
+                <div class="embed-responsive embed-responsive-1by1 rota-left zoom shadow">
+                    <img src="img/cagnetty.jpg" alt="" class="embed-responsive-item img-thumbnail" />
+                </div>
+
+            </div>
+
+            <div class="col-6 col-md-3 mb-3 my-sm-3 bea-item cats">
+                <div class="embed-responsive embed-responsive-1by1 rota-right zoom shadow">
+                    <img src="img/gatto2.jpg" alt="" class="embed-responsive-item img-thumbnail" />
+                </div>
+            </div>
+
+            <div class="col-6 col-md-3 mb-3 my-sm-3 bea-item dogs">
+                <div class="embed-responsive embed-responsive-1by1 rota-left zoom shadow">
+                    <img src="img/cagnetty.jpg" alt="" class="embed-responsive-item img-thumbnail" />
+                </div>
+
+            </div>
+
+            <div class="col-6 col-md-3 mb-3 my-sm-3 bea-item cats">
+                <div class="embed-responsive embed-responsive-1by1 rota-right zoom shadow">
+                    <img src="img/gatto2.jpg" alt="" class="embed-responsive-item img-thumbnail" />
+                </div>
+            </div>
+
+            <div class="col-6 col-md-3 mb-3 my-sm-3 bea-item dogs">
+                <div class="embed-responsive embed-responsive-1by1 rota-left zoom shadow">
+                    <img src="img/cagnetty.jpg" alt="" class="embed-responsive-item img-thumbnail" />
+                </div>
+
+            </div>
+
+            <div class="col-6 col-md-3 mb-3 my-sm-3 bea-item cats">
+                <div class="embed-responsive embed-responsive-1by1 rota-right zoom shadow">
+                    <img src="img/gatto2.jpg" alt="" class="embed-responsive-item img-thumbnail" />
+                </div>
+            </div>
+
+            <div class="col-6 col-md-3 mb-3 my-sm-3 bea-item dogs">
+                <div class="embed-responsive embed-responsive-1by1 rota-left zoom shadow">
+                    <img src="img/cagnetty.jpg" alt="" class="embed-responsive-item img-thumbnail" />
+                </div>
+
+            </div>
+
+            <div class="col-6 col-md-3 mb-3 my-sm-3 bea-item cats">
+                <div class="embed-responsive embed-responsive-1by1 rota-right zoom shadow">
+                    <img src="img/gatto2.jpg" alt="" class="embed-responsive-item img-thumbnail" />
+                </div>
+            </div>
+
+            <div class="col-6 col-md-3 mb-3 my-sm-3 bea-item dogs">
+                <div class="embed-responsive embed-responsive-1by1 rota-left zoom shadow">
+                    <img src="img/cagnetty.jpg" alt="" class="embed-responsive-item img-thumbnail" />
+                </div>
+
+            </div>
+
+            <div class="col-6 col-md-3 mb-3 my-sm-3 bea-item cats">
+                <div class="embed-responsive embed-responsive-1by1 rota-right zoom shadow">
+                    <img src="img/gatto2.jpg" alt="" class="embed-responsive-item img-thumbnail" />
+                </div>
+            </div>
+
+            <div class="col-6 col-md-3 mb-3 my-sm-3 bea-item dogs">
+                <div class="embed-responsive embed-responsive-1by1 rota-left zoom shadow">
+                    <img src="img/cagnetty.jpg" alt="" class="embed-responsive-item img-thumbnail" />
+                </div>
+
+            </div>
+
+            <div class="col-6 col-md-3 mb-3 my-sm-3 bea-item cats">
+                <div class="embed-responsive embed-responsive-1by1 rota-right zoom shadow">
+                    <img src="img/gatto2.jpg" alt="" class="embed-responsive-item img-thumbnail" />
+                </div>
+            </div>
+
+            <div class="col-6 col-md-3 mb-3 my-sm-3 bea-item dogs">
+                <div class="embed-responsive embed-responsive-1by1 rota-left zoom shadow">
+                    <img src="img/cagnetty.jpg" alt="" class="embed-responsive-item img-thumbnail" />
+                </div>
+
+            </div>
+
+            <div class="col-6 col-md-3 mb-3 my-sm-3 bea-item cats">
+                <div class="embed-responsive embed-responsive-1by1 rota-right zoom shadow">
+                    <img src="img/gatto2.jpg" alt="" class="embed-responsive-item img-thumbnail" />
+                </div>
+            </div>
+
+            <div class="col-12 py-5 text-center text-md-right">
+                <a class="btn btn-outline-dark" href="#works">Back to
+                    filters</a>
+            </div>
+
+        </div>
+
+        <!-- old cards in columns -->
+        <!-- <div class="card-columns">
+                <div class="card border-0 rounded-0 bea-item others" data-aos="fade-up">
+                    <a class="image-box" href="#">
+                        <img src="img/cagnetty.jpg" alt=""  class="img-fluid" src="bea-1-cat-1.jpg" alt="" />
+                        <div class="content-box">
+                            <h3 class="">title</h3>
+                            <p class="">description</p>
+                        </div>
+                    </a>
+                </div>
+            </div> 
+
+        </div> -->
+    </section>
+
+    <footer class="py-5">
+        <div class="container">
+            <div class="row no-gutters small border-top border-bottom py-5">
+
+                <div class="col-6 col-md">
+                    <h5 class="h6">Index</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">home</a></li>
+                        <li><a class="text-muted" href="#">tips</a></li>
+                        <li><a class="text-muted" href="#">work</a></li>
+                        <li><a class="text-muted" href="#">socials</a></li>
+                        <li><a class="text-muted" href="#">contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md">
+                    <h5 class="h6">Lorem</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">Another</a></li>
+                        <li><a class="text-muted" href="#">Another</a></li>
+                        <li><a class="text-muted" href="#">Another</a></li>
+                        <li><a class="text-muted" href="#">Another</a></li>
+                        <li><a class="text-muted" href="#">Another</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md">
+                    <h5 class="h6">About</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">Privacy</a></li>
+                        <li><a class="text-muted" href="#">Terms</a></li>
+                        <li><a class="text-muted" href="#">Another</a></li>
+                        <li><a class="text-muted" href="#">Another</a></li>
+                        <li><a class="text-muted" href="#">Another</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md d-flex align-items-center">
+                    <img class="img-fluid" style="max-width: 9rem;" src="LOGO.png" alt="">
+                </div>
+            </div>
+
+            <div class="row pt-5">
+                <div class="col-12 copyright small text-center">2022 © Beatnicstore by Scarabea | Handmade with <i
+                        class="fa-solid fa-heart"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    -->
+
+    <!-- fontawsome -->
+    <!-- <script src="https://kit.fontawesome.com/3f655db959.js" crossorigin="anonymous"></script> -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+
+        AOS.init();
+
+        /*  */
+
+        $('.js-scroll-trigger').click(function () {
+            $('.navbar-collapse').collapse('hide');
+        });
+
+        /*  */
+
+        filterSelection("all")
+        function filterSelection(c) {
+            var x, i;
+            x = document.getElementsByClassName("bea-item");
+            if (c == "all") c = "";
+            for (i = 0; i < x.length; i++) {
+                BeaRemoveClass(x[i], "bea-show");
+                if (x[i].className.indexOf(c) > -1) BeaAddClass(x[i], "bea-show");
+            }
+        }
+
+        function BeaAddClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                if (arr1.indexOf(arr2[i]) == -1) { element.className += " " + arr2[i]; }
+            }
+        }
+
+        function BeaRemoveClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                while (arr1.indexOf(arr2[i]) > -1) {
+                    arr1.splice(arr1.indexOf(arr2[i]), 1);
+                }
+            }
+            element.className = arr1.join(" ");
+        }
+
+        // Add active class to the current button (highlight it)
+        var btnContainer = document.getElementById("filtersButtons");
+        var btns = btnContainer.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function () {
+                var current = document.getElementsByClassName("bea-active");
+                current[0].className = current[0].className.replace(" bea-active", "");
+                this.className += " bea-active";
+            });
+        }
+
+    </script>
+
+</body>
+
+</html>
