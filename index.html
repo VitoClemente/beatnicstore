@@ -50,8 +50,17 @@
 
                 <div class="collapse navbar-collapse" id="navbarsExample05">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link js-scroll-trigger" href="#collezione">Collezione</a>
+                        </li> -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle nav-link" href="" id="dropdown01" data-toggle="dropdown"
+                                aria-expanded="false">Collezione</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown01">
+                                <a class="dropdown-item" href="#">Pelosetti</a>
+                                <a class="dropdown-item" href="#">Pelosetti action</a>
+                                <a class="dropdown-item" href="#">Pelosetti else here</a>
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link js-scroll-trigger" href="#chi-sono">Chi Sono</a>
@@ -78,6 +87,7 @@
 
     <!-- carousel -->
     <section>
+        <!-- intro-carousel -->
         <div id="intro-carousel" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#intro-carousel" data-slide-to="0" class="active"></li>
@@ -87,7 +97,6 @@
             <div class="carousel-inner">
                 <div class="carousel-item intro-slide-1 active" style="background-image: url('slide1.jpeg')">
                     <!-- <img src="img/slide03.jpg" class="d-block w-100" alt="..."> -->
-
                     <div class="container">
                         <div class="carousel-caption text-center">
                             <h2>Example headline.</h2>
@@ -98,25 +107,23 @@
                 </div>
                 <div class="carousel-item" style="background-image: url('slide2.jpeg')">
                     <!-- <img src="img/slide02.jpg" class="d-block w-100" alt="..."> -->
-
-                    <div class="container">
+                    <!-- <div class="container">
                         <div class="carousel-caption text-center">
                             <h2>Another example headline.</h2>
                             <p>Some representative placeholder content for the second slide of the carousel.</p>
                             <a class="btn btn-small btn-primary bea-btn" href="#">Learn more</a>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="carousel-item" style="background-image: url('slide3.jpeg')">
                     <!-- <img src="img/slide01.jpg" class="d-block w-100" alt="..."> -->
-
-                    <div class="container">
+                    <!-- <div class="container">
                         <div class="carousel-caption text-center">
                             <h2>One more for good measure.</h2>
                             <p>Some representative placeholder content for the third slide of this carousel.</p>
                             <a class="btn btn-small btn-primary bea-btn" href="#">Browse gallery</a>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-target="#intro-carousel" data-slide="prev">
@@ -130,15 +137,18 @@
                 <span class="sr-only">Next</span>
             </button>
         </div>
-
-        <div id="intro" class="container py-5">
-            <div class="row">
-                <div class="col-md-10 mx-auto text-center">
-                    <h2>Benvenuti nel mondo di ScaraBea</h2>
-                    <div class="bea-hr-sm"></div>
-                    <p class="lead">Scarabea è il tappo che vive dentro ognuno di noi, alla ricerca di una felicità
-                        semplice che parte dall’amore per se stessi. Ogni tappo è unico ed è stato scolpito a mano per
-                        risplendere di luce propria!</p>
+        <!-- intro -->
+        <div class="container-fluid" style="background-color: var(--bea-red);">
+            <div id="intro" class="container py-5">
+                <div class="row text-white">
+                    <div class="col-md-10 mx-auto text-center">
+                        <h2>Benvenuti nel mondo di ScaraBea</h2>
+                        <div class="bea-hr-sm"></div>
+                        <p class="lead">Scarabea è il tappo che vive dentro ognuno di noi, alla ricerca di una felicità
+                            semplice che parte dall’amore per se stessi. Ogni tappo è unico ed è stato scolpito a mano
+                            per
+                            risplendere di luce propria!</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -198,45 +208,49 @@
     <!-- <hr class="bea-hr-divider"> -->
 
     <!-- chi sono -->
-    <section id="chi-sono" class="container py-5">
-        <div class="row pt-5 align-items-center">
-            <div class="col-md-7" data-aos="zoom-in">
-                <h2 class="text-center text-md-left">Hey, tu! Ciao, io sono Ciapinko e creo bellezza.</h2>
-                <p class="lead text-justify mb-5 mb-md-0"><mark>Ciapinko</mark> nasce da un’esigenza artistica e
-                    personale, facendo
-                    della mia
-                    passione un lavoro con una
-                    missione precisa. Raccogliere da terra i tappini di sugheri e scavare all'interno per scoprire quali
-                    faccine si nascondono all'interno per poter regalare un sorriso a tutti coloro alla ricerca della
-                    felicità, trasmettendo un messaggio politico e di amore per se stessi.</p>
+    <div class="container-fluid" style="background-color: var(--bea-purple);">
+        <section id="chi-sono" class="container py-5">
+            <div class="row pt-5 align-items-center text-white">
+                <div class="col-md-7" data-aos="zoom-in">
+                    <h2 class="text-center text-md-left">Hey, tu! Ciao, io sono Ciapinko e creo bellezza.</h2>
+                    <p class="lead text-justify mb-5 mb-md-0"><mark>Ciapinko</mark> nasce da un’esigenza artistica e
+                        personale, facendo
+                        della mia
+                        passione un lavoro con una
+                        missione precisa. Raccogliere da terra i tappini di sugheri e scavare all'interno per scoprire
+                        quali
+                        faccine si nascondono all'interno per poter regalare un sorriso a tutti coloro alla ricerca
+                        della
+                        felicità, trasmettendo un messaggio politico e di amore per se stessi.</p>
+                </div>
+                <div class="col-md-5" data-aos="fade-up">
+                    <img src="io.jpg" alt="io" onMouseDown="alert('Questa immagine è coperta da copyright')"
+                        class="img-thumbnail shadow">
+                </div>
             </div>
-            <div class="col-md-5" data-aos="fade-up">
-                <img src="io.jpg" alt="io" onMouseDown="alert('Questa immagine è coperta da copyright')"
-                    class="img-thumbnail shadow">
-            </div>
-        </div>
-    </section>
-
+        </section>
+    </div>
     <!-- <hr class="bea-hr-divider"> -->
 
     <!-- ecosostenibilità -->
-    <section id="ecosostenibilita" class="container py-5">
-        <div class="row pt-5 align-items-center">
-            <div class="col-md-7 order-md-2" data-aos="zoom-in">
-                <h2 class="text-center text-md-left">Ecosostenibilità</h2>
-                <p class="lead text-justify mb-5 mb-md-0">I tried to make my project more ecological and original,
-                    avoiding the use
-                    of polymer
-                    clay but the recycling of objects destined for another use. Small miniature sculptures made with
-                    simple wine cork stoppers.
+    <div class="container-fluid" style="background-color: var(--bea-turquoise);">
+        <section id="ecosostenibilita" class="container py-5">
+            <div class="row pt-5 align-items-center text-white">
+                <div class="col-md-7 order-md-2" data-aos="zoom-in">
+                    <h2 class="text-center text-md-left">Ecosostenibilità</h2>
+                    <p class="lead text-justify mb-5 mb-md-0">I tried to make my project more ecological and original,
+                        avoiding the use
+                        of polymer
+                        clay but the recycling of objects destined for another use. Small miniature sculptures made with
+                        simple wine cork stoppers.
+                </div>
+                <div class="col-md-5 order-md-1" data-aos="fade-up">
+                    <img src="raw.jpg" alt="io" onmousedown="alert('Questa immagine è coperta da copyright')"
+                        class="img-thumbnail shadow">
+                </div>
             </div>
-            <div class="col-md-5 order-md-1" data-aos="fade-up">
-                <img src="raw.jpg" alt="io" onmousedown="alert('Questa immagine è coperta da copyright')"
-                    class="img-thumbnail shadow">
-            </div>
-        </div>
-    </section>
-
+        </section>
+    </div>
     <!-- <hr class="bea-hr-divider"> -->
 
     <!-- come ordinare -->
